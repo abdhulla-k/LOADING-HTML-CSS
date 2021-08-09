@@ -29,11 +29,23 @@
 
         <hr/>
         <form>
-            <p>What is your favorite country to visit?</p>
-            <input type="radio" name="country" value="India" checked="India" > India
+            <p>What is your favorite country to visit?</p>    <!-- incase of radio button, you can only 
+                                                                possible to selectone option -->
+            <input type="radio" name="country" value="India" checked="India" > India    <!-- The checked attribute is 
+            a boolean attribute. When present, it specifies that an <input> element should be pre-selected (checked) 
+            when the page loads. -->
             <input type="radio" name="country" value="India" > China
             <input type="radio" name="country" value="India" > Maleshiya
             <input type="radio" name="country" value="India" > Singapore
+        </form>
+        <hr/>
+        <form>
+            <p>What is your favorite place to visit?</p>
+            <input type="checkbox" name="place" value="Kerala">kerala <!-- incase of checkbox, you can possible to 
+                sellect multipple choices-->
+            <input type="checkbox" name="place" value="Panjab" checked="Panjab">Panjab
+            <input type="checkbox" name="place" value="Rajasthan">Rajasthan
+            <input type="checkbox" name="place" value="Karnataka">Karnataka
         </form>
         <hr/>
     </body>
