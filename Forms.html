@@ -87,6 +87,38 @@
             <input type="submit" value="upload"/>
         </form>
         <hr/>
+        <!-- Label, Fieldset, Legend, image button -->
+
+        <form action="mailto:your@email.com" method="POST">
+
+            <fieldset>                    <!-- The <fieldset> tag is used to group related elements in a form. 
+                                               The <fieldset> tag draws a box around the related elements.-->
+
+               <legend>Contact details</legend>           <!-- The legend tag is used to define the title for the child 
+                                                               contents. The legend elements are the parent element. 
+                                                               This tag is used to define the caption for the <fieldset>
+                                                               element. -->
+                <label>Email:                   
+                    <input type="text" name="Email"/>
+                </label><br/>
+                <label>Phone:
+                    <input type="text" name="Phone"/>
+                </label><br/>
+                <label>Mobile:
+                    <input type="text" name="Mobile"/>
+                </label>      <br/>         <!-- The <label> tag in HTML is used to provide a usability improvement 
+                                            for mouse users i.e, if a user clicks on the text within the <label> 
+                                            element, it toggles the control. The <label> tag defines the label for 
+                                            <button>, <input>, <meter>, <output>, <progress>, <select>, or <textarea> 
+                                            element.-->
+                <input type="image" src="images/sample2.jpeg" height="30" width="100" />
+                                            <!-- The <input type="image"> defines an image as a submit button.
+                                             The path to the image is specified in the src attribute.-->
+            </fieldset>
+        </form>
+
+        <hr/>
+      
 
     </body>
 </html>
