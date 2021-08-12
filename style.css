@@ -1,9 +1,11 @@
 p{
     background: rosybrown;
     color: black;
+    text-align: center;
 }
 h1{
     color: blue;
+    text-align: center;
 }
 button{
     color: white;
@@ -12,8 +14,11 @@ button{
 body{
     background: greenyellow;
 }
-/* possible to change the background coller thrue write a * or write 'body'. select body, kink, paragraph, enything 
-like this */
+/* 
+possible to change the background coller thrue write a * or write 'body'. select body, kink, paragraph, enything 
+like this . if you want to change all text size or background or enything, then you can use the '*'             
+ */
+
 
 /*possible to select h1 and h2 both like below*/
 
