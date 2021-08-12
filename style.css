@@ -9,3 +9,7 @@ button{
     color: white;
     background: black;
 }
+body{
+    background: greenyellow;
+}
+/* possible to change the background coller thrue write a * or write 'body' */
