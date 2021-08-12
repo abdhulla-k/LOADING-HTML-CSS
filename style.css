@@ -12,7 +12,7 @@ button{
     background: black;
 }
 body{
-    background: greenyellow;
+    background: rgb(189, 252, 94);
 }
 /* 
 possible to change the background coller thrue write a * or write 'body'. select body, kink, paragraph, enything 
@@ -25,4 +25,16 @@ like this . if you want to change all text size or background or enything, then 
 h2, h3{
     background-color: aqua;
     color: coral;
+}
+
+/* div and span */
+div{
+    background-color: rebeccapurple;
+    color: darkgray;
+    width: 50%;
+}
+span{
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
 }
