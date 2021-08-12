@@ -12,4 +12,12 @@ button{
 body{
     background: greenyellow;
 }
-/* possible to change the background coller thrue write a * or write 'body' */
+/* possible to change the background coller thrue write a * or write 'body'. select body, kink, paragraph, enything 
+like this */
+
+/*possible to select h1 and h2 both like below*/
+
+h2, h3{
+    background-color: aqua;
+    color: coral;
+}
