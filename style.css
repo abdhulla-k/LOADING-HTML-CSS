@@ -38,3 +38,21 @@ span{
     font-size: 20px;
     background-color: black;
 }
+
+/* id and class */
+#one{
+    background-color: aliceblue;
+    color: green;
+}
+#two{
+    background-color: green;
+    color: white;
+}
+#three{
+    background-color: salmon;
+    color: black;
+}
+.content{
+    background-color: white;
+    color: gray;
+}
