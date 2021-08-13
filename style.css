@@ -72,3 +72,19 @@ h5{
     border: 5px solid blue;
     margin-top: 0px;
 }
+body{
+    background-image: url(images/index.jpeg);
+    /* use 'background-image-size: cover' to set one image around all the page*/
+}
+#pone{
+    background-image: url(images/index.jpeg);
+    height: 500px;
+}
+#ptwo{
+    background-image: url(images/images.jpeg);
+    height: 500px;
+    background-repeat: repeat-x;
+    /*use repeat-x to horizontal
+    and repeat-y to vertical
+    and use the 'background-position' to alighn the image like bottom, middle, right etc.*/
+}
