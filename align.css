@@ -1,0 +1,52 @@
+.main-box{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border: 50x rgb(13, 2, 173);
+    
+}
+.div1{
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px white;
+}
+.div2{
+    background-color: rgb(128, 128, 204);
+    width: 40%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px white;
+}
+.div3{
+    background-color:rgb(120, 197, 120);
+    width: 40%;
+    height: 50px;
+    float: left;              /* The float CSS property places an element on the left or right side of its container, */
+    margin: 10px;
+    padding: 5px;
+    border: 5px white;
+}
+.div4{
+    background-color: rgb(231, 231, 110);
+    width: 40%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px white;
+}
+.div5{
+    background-color: rgb(100, 100, 100);
+    width: 40%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px white;
+}
