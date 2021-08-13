@@ -56,3 +56,19 @@ span{
     background-color: white;
     color: gray;
 }
+
+/* box model */
+h4{
+    background-color: black;
+    color: white;
+    padding: 20px 0 20px 2px;   /* clock wise */
+    border: 5px solid blue;
+    margin-bottom: 0px;
+}
+h5{
+    background-color: black;
+    color: white;
+    padding: 20px 0 20px 2px;   /* clock wise */
+    border: 5px solid blue;
+    margin-top: 0px;
+}
