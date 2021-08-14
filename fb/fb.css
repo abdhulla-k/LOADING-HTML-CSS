@@ -9,13 +9,13 @@ body{
 
 }
 .logo{
-    height: 85px;
+    height: 10px;
     width: 50%;
     padding-top: 30px;
     float: left;
 }
 .login{
-    height: 85px;
+    height: 50px;
     width: 50%;
     float: right;
 }
@@ -50,4 +50,29 @@ body{
 }
 .submi-btn:hover{
     background: rgb(24, 27, 194);
+}
+.main-body{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(white, #D3D8E8);
+}
+.left-section{
+    width: 50%;
+    height: 800px;
+    float: left;
+    padding-left: 196px;
+    padding-top: 70px;
+}
+.right-section{
+    width: 50%;
+    height: 800px;
+    float: right;
+}
+.image{
+    width: 100%;
+    height: 300px;
+}
+.para{
+    font-weight: bold;
+    font-size: 20px;
 }
