@@ -53,26 +53,74 @@ body{
 }
 .main-body{
     width: 100%;
-    height: 800px;
+    height: 700px;
     background: linear-gradient(white, #D3D8E8);
 }
 .left-section{
     width: 50%;
-    height: 800px;
+    height: 700px;
     float: left;
     padding-left: 196px;
     padding-top: 70px;
 }
 .right-section{
-    width: 50%;
-    height: 800px;
+    width: 39%;
+    height: 700px;
     float: right;
+    padding-left: 0;
 }
 .image{
     width: 100%;
-    height: 300px;
+    height: 280px;
 }
 .para{
     font-weight: bold;
     font-size: 20px;
+}
+.h1{
+    font-weight: bold;
+    color: black;
+    margin-top: 52px;
+    
+}
+.mobile-password{
+    width: 384px;
+    margin-top: 14px;
+    height: 31px;
+}
+.name{
+    width: 183px;
+    margin-top: 16px;
+    height: 31px;
+}
+.date-birth{
+    margin: 6px;
+}
+.Gender{
+    margin-top: 6px;
+}
+#paratwo{
+    font-size: 10px;
+}
+.text-link{
+    text-decoration: none;
+}
+.sign-button{
+    background-color: green;
+    width: 165px;
+    height: 41px;
+    FONT-SIZE: 22PX;
+    border-radius: 8px;
+    margin-bottom: 22px;
+}
+#birthday{
+    margin-top: 25px;
+}
+.dropdown{
+    height: 30px;
+}
+#paratwo{
+    font-size: 10px;
+    margin-top: 22px;
+    margin-bottom: 30px;
 }
