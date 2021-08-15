@@ -1,0 +1,13 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    margin-left: 717px;
+    background-color:gray;
+}
+.screen{
+    height: 40px;
+    width: 80%;
+    margin-left: 33px;
+    margin-top: 33px;
+    pointer-events: none;  /* disabled input thrue key bord or */
+}
