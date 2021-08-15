@@ -6,8 +6,24 @@
 }
 .screen{
     height: 40px;
-    width: 80%;
+    width: 59%;
     margin-left: 33px;
     margin-top: 33px;
     pointer-events: none;  /* disabled input thrue key bord or */
+}
+.btn{
+    width: 79px;
+    height: 51px;
+    background-color: rgb(238, 168, 39);
+}
+.row{
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.btn-C{
+    height: 46px;
+    width: 76px;
+    background:red;
+    border-radius: 8px;
+    border: none;
 }
