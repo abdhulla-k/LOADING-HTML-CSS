@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn"> Clic me </button>   <!-- how to use -->
+    <div style="width: 100%; height: 200px; background-color: green;" id="Box">
+    </div>
+    <input type="text" id="inp">
+    <label style="display: name;"id="error">Enter minimum of 4 charactors</label>
+    <input type="text">
+
+
+    <!-- must add the sours link jof jQuery like below -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                //alert('button clicked')
+                $('#Box').toggle(3000)
+            })
+            $('#btn').mouseenter(function(){
+                $(this).css({"background":"red"})
+            })
+            $('#btn').mouseleave(function(){
+                $(this).css({"background":"green"})
+            })
+            $('#btn').click(function(){
+               
+            })
+            $('#inp').blur(function(){
+                var text = $(this).val()
+                if(text.length<4){
+                    $('#error').show()
+                }else{
+                    $('#error').hide()
+                }
+            })
+        })
+    </script>
+</body>
+</html>
